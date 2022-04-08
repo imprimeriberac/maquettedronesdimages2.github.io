@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --black: #333;
+    --white: #fff;
+}
+
+* {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: 'Poppins';
+    /* border: 1px solid red; */
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+}
+
+header .video {
+    position: absolute;
+    min-height: 100vh;
+    min-width: 100%;
+    top: 50%;
+    left: 50%;
+    z-index: -100;
+    transform: translate(-50%, -50%);
+}
+
+.logo-homepage img {
+    width: 450px;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul li {
+    padding: 0 25px;
+}
+
+header nav ul li a {
+    font-size: 1.11em;
+    color: #fff;
+    text-shadow: 2px 2px 1px #333;
+    text-transform: uppercase;
+}
+
+.title-homepage {
+    position: absolute;
+    top: 35%;
+    left: 200px;
+}
+
+.title-homepage h1 {
+    font-size: 3.5em;
+    color: #fff;
+    text-shadow: 2px 2px 1px #333;
+    text-transform: uppercase;
+}
+
+.title-homepage h2 {
+    font-size: 2.2em;
+    color: #fff;
+    text-shadow: 2px 2px 1px #333;
+}
